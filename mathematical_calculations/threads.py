@@ -10,7 +10,7 @@ def solve_math_problem1():
     result = 0
     for i in range(1000000):
         result += abs(round(i ** 2 / 20) + i * 2.5)
-    print(f"Result: {result}")
+    print(f"{result}")
 
 
 def run():
