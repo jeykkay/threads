@@ -9,8 +9,8 @@ def complex_calculation(data):
 
 
 start_time = time.time()
-result1 = complex_calculation(5)
+result = complex_calculation(5)
 end_time = time.time()
 execution_time = end_time - start_time
-print("Result 1:", result1)
-print("Execution time of program 1:", execution_time, "seconds")
+print(f"Result: {result}")
+print(f"Execution time of program: {execution_time} seconds")
